@@ -1,84 +1,35 @@
-body{
-    background-image: url(https://digitaladdictsblog.com/wp-content/uploads/2019/01/shutterstock_295846730.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
+
+
+
 
 .text{
-    color: #DC81DA;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#head{
-    font-size: 160px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 80px;
-    position: relative;
-    white-space: nowrap;
-    margin-left: 410px;
-    position: relative;
-    z-index:1;
-    margin-top:90px;
-}
-
-#page{
-    color:#83E8F5;
-    font-size: 35px;
-    font-weight: bold;
     text-align: center;
-
+    font-family: 'Caveat Brush', cursive;
 }
 
-#second{
-    color:pink;
-    font-size:30px;
-    font-weight: normal;
-    text-align:center;
+#head{
+    font-size: 50px;
 }
 
-#third{
-    color:pink;
-    font-size:30px;
-    font-weight:normal;
-    text-align:center;
+#head:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
-#last{
-    color:#DC81DA;
-    font-size:30px;
-    font-weight:bold;
-    text-align:center;
-    text-transform: uppercase;
+#info{
+    font-size: 20px;
 }
-
-
-img{
-    width: 170px;
-    margin-left: 545px;
-    position: absolute;
-    z-index: 0;
-    width: 170px;
-   height: 170px;
-   background-color:#83E8F5;
-   animation-name: example;
-   animation-duration: 4s;
-   animation-iteration-count: 3;
-    
-}
-
-a:link{
-    color: #83E8F5;
-}
-
-a:hover{
-    color:#DC81DA;
-}
-
-a:visited{
-    color:#83E8F5;
-}
-
-@keyframes example {
-    from {background-color:#83E8F5;}
-    to {background-color: #DC81DA;}
-
