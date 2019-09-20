@@ -12,7 +12,7 @@
 
 ## Project link
 
- [404-page](https://floorjulessegers.github.io/404-page/)
+ [404-page](https://floorjulessegers.github.io/404-page/404page.html)
 
 ## Built with 
 - HTML
